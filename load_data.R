@@ -1,6 +1,6 @@
 ## Load dataset.
 # Reference courtesy Xiaodan@github
-setwd("C:/Sreekanth/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
+setwd("C:/msk/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
 filename <- "./household_power_consumption.txt"
 data <- read.table(filename,
 header = TRUE,

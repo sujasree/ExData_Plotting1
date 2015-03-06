@@ -1,7 +1,7 @@
 ## First check whether it has the file in the current dir.
 # Reference courtesy Xiaodan@github
 if (!"load_data.R" %in% list.files()) {
-setwd("C:/Sreekanth/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
+setwd("C:/msk/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
 }
 source("load_data.R")
 png(filename = "plot4.png",
@@ -24,7 +24,7 @@ xlab = "", ylab = "Energy sub metering")
 lines(DateTime, Sub_metering_2, col = "red")
 lines(DateTime, Sub_metering_3, col = "blue")
 # Remove the border of legend here.
-legend("toprigaht",
+legend("topright",
 bty = "n",
 col = c("black", "red", "blue"),
 c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),

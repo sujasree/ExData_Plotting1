@@ -1,7 +1,7 @@
 ## First check whether it has the file in the current dir.
 # Reference courtesy Xiaodan@github
 if (!"load_data.R" %in% list.files()) {
-setwd("C:/Sreekanth/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
+setwd("C:/msk/DataScience/ExpDataAnalysis/ExData_Plotting1/ExData_Plotting1")
 }
 source("load_data.R")
 png(filename = "plot1.png",
